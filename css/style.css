@@ -1,0 +1,290 @@
+@charset "utf-8";
+/**********Font-Embedding ku***************/
+@font-face {
+    font-family: 'allerbold';
+    src: url('../fonts/aller_bd-webfont.eot');
+    src: url('../fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller_bd-webfont.woff') format('woff'),
+         url('../fonts/aller_bd-webfont.ttf') format('truetype'),
+         url('../fonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*************Selection CSS**********/
+::selection{
+	background: #9ed996;
+	color:#fff;
+}
+::-moz-selection{
+	background: #9ed996;
+	color:#f00;
+}
+/***************Generic CSS*********/
+*{
+	margin: 0;
+	padding: 0;
+}
+.outer-wrapper{
+	float: left;
+	width: 100%;
+}
+.inner-wrapper{
+	margin: 0 auto;
+	max-width:1100px;
+}
+body{
+	background:#23C6F1;
+	background-repeat: no-repeat;	
+}
+h3{
+	color:#fff;
+}
+input[type="text"],input[type="tel"],textarea,select{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	color: #000;
+	width:100%;
+	background: #ededed 9px center;
+    border: solid 1px #ccc;
+
+}
+input[type="text"]:hover,input[type="tel"]:hover,textarea:hover,select:hover{
+	background: #fff;
+	color:#000;
+}
+/****************Header ku****************/
+.nav-header,.footer{
+	background:#006885;	
+}
+.sname{	
+	font:30px/15px allerbold;	
+	color:#fff;	
+}
+#navbarCollapse{
+        padding: 0;
+}
+.logo{
+	padding-top: 2%;
+}
+/*************Main-menu ku***********/
+.navbar{
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+}
+.menu-items {list-style-type:none;float: left;width:100%;display: table;margin: 0;}
+.menu-items li {display:table-cell;}
+.menu-items li#blue ul { display:none; position:absolute; top:43px;left:0; width:150px;}
+.menu-items li#blue:hover ul { display:block;}
+/*.menu-items ul li {float:none; text-align:left;}*/
+.menu-items li a {text-decoration:none; font-weight:bold; display:block; line-height:2em;padding: 5px 0;background-color:#F6F6F6;
+border-left:1px solid white;border-right:1px solid #999;border-bottom:1px solid #999;}
+/*.menu-items ul li a { font-weight:normal ;border-right: none;border-left: none;}*/
+.menu-items li a:hover {color:white;}
+
+.menu-items li{
+	float: none;
+}
+
+/*ul ul li a:hover {color:grey;background-color:#40C4D0;}*/
+
+.menu-items li#green a {background-color:#C5D01C; color:#000;}
+.menu-items li#green a:hover {background-color:#FF6600;color:#662900;}
+
+.menu-items li#blue a{background-color:#40C4D0;color:#1F0A00;}
+.menu-items li#blue a:hover{background-color:#FFC602;color:#332900;}
+
+.menu-items li#orange a{background-color:#FF6600;color:#662900;}
+.menu-items li#orange a:hover{background-color:#C5D01C;color:#29330A;}
+
+.menu-items li#yellow a {background-color:#FFC602;color:#332900;}
+.menu-items li#yellow a:hover{background-color:#00A4DA;color:#001F33;}
+
+.menu-items li#yellowgreen a{background-color:#C5D01C;color:#29330A;}
+.menu-items li#yellowgreen a:hover{background-color:#FF6600;color:#662900;}
+
+.menu-items li#ligthblue a{background-color:#00A4DA;color:#001F33;}
+.menu-items li#ligthblue a:hover{background-color:#FFC602;color:#332900;}
+
+/********Slider ku*******/
+.sliderbanner{
+	margin-top: 5%;
+}
+.bx-wrapper .bx-caption{
+	text-align: center;
+	padding: 4%;
+	background: #11d9f8;
+	opacity: 0.5;
+	float: left;	
+}
+.bx-wrapper .bx-caption span{
+	color:#f00;
+	background: #fff;
+	display: inline-block;
+	font-size:20px;
+	opacity: 1.0;
+}
+/*********Tabs ku********/
+.nav-tabs{
+	border:transparent;
+	background: #43a3ad;
+}
+.nav-tabs li{
+	width:33.33%;
+	text-align: center;
+}
+.nav-tabs li.active{
+	border: 1px solid #000;
+	color:#333;
+	background: #00ff8e;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.nav-tabs>li>a{
+	margin: 0;
+}
+.nav-tabs li.active a{	
+	font-weight: bolder;
+	color:#000;	
+}
+.marquee li a{
+	display:inline-block;
+	margin-top: 2.5%;
+}
+/************Footer ku*******/
+.footer li a{
+	color:#fff;
+}
+.footer li:first-child{
+	color:#fff;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.socio-icons li img{
+	border-radius:5px;
+}
+.footer .logo,.socio-icons li{
+	opacity: 0.7;
+}
+.footer .logo:hover,.socio-icons li:hover{
+	opacity: 1.0;
+}
+.socio-icons{
+	margin-top: 71px;
+}
+.footer ul.marquee.list-unstyled.text-left {
+    padding-top: 20px;
+}
+/*********copy right ku*********/
+.copyright{
+	background:#060220;
+	color:#FFF;
+}
+/************Contactus Page ku*********/
+.contactus input,.contactus textarea,.contactus button{
+	float: left;
+	width:100%;	
+	margin-top:2%;
+	margin-bottom: 2%;
+	text-indent: 5px;
+}
+.contactus p{
+	color:#f00;
+}
+.gm-style .place-card-large{
+	visibility: hidden;
+}
+.contactus iframe{
+	width:100%;
+}
+/*******************Gallery ku************/
+.gallery{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#html5-watermark{	
+	visibility: hidden;
+}
+/*******************alumni loading doc ku**********/
+.results li{
+	float: left;
+	width:100%;
+}
+.results li span{
+	text-transform: capitalize;
+	text-align: center;
+	float: left;
+	font-weight: bolder;
+	width:20%;
+	margin:2.5%;	
+	border:2px solid #fff;
+	box-sizing:border-box;
+	word-break: break-all;
+}
+
+/************Aluni signup ku**********/
+.signupform{
+	border-radius:7px;
+	margin-bottom: 5%;
+	-webkit-box-shadow: -4px 1px 77px -8px rgba(0,79,122,1);
+-moz-box-shadow: -4px 1px 77px -8px rgba(0,79,122,1);
+box-shadow: -4px 1px 77px -8px rgba(0,79,122,1);
+}
+.contactus>#formtable{
+	margin-top: 10px;
+	float: left;
+	width:100%;
+}
+#formtable tr{
+	float: left;
+	width:100%;
+	margin-bottom:10px;
+}
+#formtable tr>td:first-child{
+	float: left;	
+	width: 35%;
+}
+#formtable tr>td:nth-child(2){
+	float: left;
+	width:65%;
+}
+/**************sociopfl details ************/
+#sociopfl{
+	position:fixed;
+	right:20px;
+	bottom:0;
+	float: right;
+	width:30%;
+	background:#fff;
+	z-index: 5555;
+	padding:0;
+}
+#sociobdy>input{
+	float: left;
+	width:100%;
+	margin-bottom:5%;
+}
+#sociohdr{
+	float: left;
+	background:#9999FF;	
+}
+/***************Search Page**************/
+.searchform{
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+#searchtxt{
+	width:100%;
+}
+.filtersearch{	
+	padding-top: 2%;	
+	padding-bottom: 2%;	
+	margin-bottom: 2%;	
+	background:#e1efdc;
+}

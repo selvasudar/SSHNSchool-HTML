@@ -1,0 +1,27 @@
+/*******signup*********/
+firstname
+lastname,
+dob,
+sex,z
+passed out year,
+group,
+marital status,
+mail id,
+phone number,
+current organisation,
+current designation,
+current location,
+Address for communication
+
+/***********social pfl*******/
+gplus,
+fb,
+linkedin,
+twitter
+
+/*******search module******/
+firstname,
+passed out year,
+group,
+mail id,
+current location,

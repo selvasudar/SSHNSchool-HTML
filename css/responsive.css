@@ -1,0 +1,25 @@
+@media (max-width: 767px) {  
+    .logo{
+        text-align: center;
+    }
+	.sname{
+		font-size:10px;
+	}
+    #navbarCollapse{        
+        position: absolute;
+        top:50px;
+        z-index:9999;
+        width: 100%;
+    }  
+    .navbar-nav>li {
+        float: left;
+        width: 100%;
+    }   
+    .sliderbanner {
+    	position: relative;
+    }
+    .bx-wrapper .bx-controls-direction a{
+    	z-index:1000;
+    }        
+
+}
